@@ -23,8 +23,8 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        vector<int> ans;
-        unordered_map<int,int> map;
+        vector<int> ans;  // creating array to store answer
+        unordered_map<int,int> map;  // creating a hash table
         for(int i=0;i<nums.size();++i){
             int diff = (target-nums[i]);
             if(map.find(diff)!=map.end()){
