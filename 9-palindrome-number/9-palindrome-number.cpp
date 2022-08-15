@@ -5,7 +5,7 @@ public:
         if(x<0 || x>pow(2,31))  // according to the condition value of 'x' should be in this range.
             return false;
         long int num = 0;
-        int y=x;  
+        int y=x;  // intially assigning 'x' to 'y' to compare in the end.
         
         while(x>0){
             num=num*10;
