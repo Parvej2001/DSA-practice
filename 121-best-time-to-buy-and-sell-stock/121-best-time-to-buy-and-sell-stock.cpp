@@ -1,8 +1,8 @@
-class Solution {
+class Solution {                                                        
 public:
     int maxProfit(vector<int>& prices) {
         
-        int min_prices=INT_MAX; // minimum price till now
+        int min_prices=INT_MAX; // minimum price of the stock initially
         int profit=0;
         
         for(int i=0; i<prices.size(); i++) // going on each day
