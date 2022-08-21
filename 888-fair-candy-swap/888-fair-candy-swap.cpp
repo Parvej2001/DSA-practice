@@ -17,11 +17,12 @@ public:
         
         set<int>s; //each element has to be unique because the value of the element identifies it.
         for(auto i:aliceSizes){
-            s.insert(i);
+            s.insert(i);     //to insert an element in the set.
         }
         vector<int>ans;
         for(auto j:bobSizes){
-            if(s.find(j-diff)!=s.end()){
+            if(s.find(j-diff)!=s.end())   //  to search an element in the set.
+            {
                 ans.push_back(j-diff);
                 ans.push_back(j);
                 return ans;
