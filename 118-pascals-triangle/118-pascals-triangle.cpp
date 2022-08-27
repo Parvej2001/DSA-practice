@@ -9,7 +9,7 @@ public:
             r[i][0]=r[i][i]=1;  // as first and last column in the triangle is 1 , hence initializing with 1
             
             for(int j=1; j<i; j++) // now linearly traversing from first column to the last column
-                r[i][j]=r[i-1][j-1]+r[i-1][j];     // adding the value of the previous rows
+                r[i][j]=r[i-1][j-1]+r[i-1][j];     // adding the previous value
         }
         return r;
     }
