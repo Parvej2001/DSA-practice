@@ -8,8 +8,8 @@ public:
         
         for(int i=0; i<n; i++)
         {
-            sum=sum+nums[i];
-            ans.push_back(sum);
+            sum=sum+nums[i];   
+            ans.push_back(sum);    //storing the element
         }
         return ans;
     }
