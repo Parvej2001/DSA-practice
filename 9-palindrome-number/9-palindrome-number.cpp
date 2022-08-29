@@ -13,7 +13,7 @@ public:
                 return false;
             num=num+(x%10);
             x=x/10;
-        }
+        }    // comparing with initial value
         if(num==y)
             return true;
         else
