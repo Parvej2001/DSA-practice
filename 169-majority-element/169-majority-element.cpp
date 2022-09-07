@@ -5,7 +5,10 @@
 //         // my solution
 //         // sort(nums.begin(), nums.end());
 //         // return nums[(int)nums.size()/2];
-        
+
+        //Explanation: Firstly we are adding the numbers and their frequency of nums in the map mp. 
+        //Then we are traversing the map mp and checking that which number's frequency is greater than n/2 where n is the size of nums 
+        //and if the frequency is greater than n/2 we are returning that number.
 //         map<int, int> mp;
 //         int n = nums.size();
 //         for(int i=0; i<n; i++)
