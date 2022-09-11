@@ -1,3 +1,7 @@
+// using 2 pointer approach 
+
+
+
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
