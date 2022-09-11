@@ -32,7 +32,7 @@ public:
 //     }
 // };
 
-// My solution 
+// My solution. compiled but dint run well 
 // class Solution {
 // public:
 // 	vector<int> sortedSquares(vector<int>& nums) {
