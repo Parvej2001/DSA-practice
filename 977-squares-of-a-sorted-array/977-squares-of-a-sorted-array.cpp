@@ -19,6 +19,7 @@ public:
     }
 };
 
+// using sorting algorithms
 // class Solution {
 // public:
 //     vector<int> sortedSquares(vector<int>& nums) {
@@ -26,7 +27,7 @@ public:
 //         for(int i = 0; i < original_size; i++){
 //             nums[i] = (nums[i])*(nums[i]);
 //         }
-//         sort(nums.begin(), nums.end());
+//         sort(nums.begin(), nums.end());     // here i have used it
 //         return nums;
 //     }
 // };
