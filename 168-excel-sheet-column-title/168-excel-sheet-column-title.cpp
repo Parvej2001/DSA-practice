@@ -22,7 +22,7 @@ public:
         
      
         
-        // another solution 
+        //another solution
 //          string result="";
 //         int n=columnNumber;
 // while(n){
