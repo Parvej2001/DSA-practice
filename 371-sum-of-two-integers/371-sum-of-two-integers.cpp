@@ -1,7 +1,7 @@
 class Solution {
 public:
     int getSum(int a, int b) {
-      
+      	// explanation
         // (a^b) basically gives sum of two integers directly(try returning a^b to sample test case) but we need to deal with carry 
         // So here is the deal: we are storing value of a&b to carry: that is if there are set-bits at one position in a as well as b
         //carry will be 1 and a will store a^b, if we have set-bits in both integers, then their xor will actually 
