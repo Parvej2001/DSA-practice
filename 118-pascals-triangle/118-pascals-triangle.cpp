@@ -1,5 +1,6 @@
 class Solution {
 public:
+    
     vector<vector<int>> generate(int numRows) {
       vector<vector<int>> r(numRows);  // creating a dynamic vector and keeping it empty
         
