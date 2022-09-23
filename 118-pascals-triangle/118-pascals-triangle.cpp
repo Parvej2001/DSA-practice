@@ -1,7 +1,8 @@
 class Solution {
 public:
     
-    vector<vector<int>> generate(int numRows) {
+    vector<vector<int>> generate(int numRows) 
+    {
       vector<vector<int>> r(numRows);  // creating a dynamic vector and keeping it empty
         
         for(int i=0; i<numRows; i++) // traversing through the 'n' rows 
