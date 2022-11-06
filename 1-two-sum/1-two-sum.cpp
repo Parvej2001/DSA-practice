@@ -13,7 +13,7 @@
 //                 ans.push_back(i);
 //                 return ans;
 //             }
-//             parvej[nums[i]] =i;
+//        parvej[nums[i]] =i;
 //         }
 //         return ans;
 //     }
