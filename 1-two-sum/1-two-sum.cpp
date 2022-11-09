@@ -16,7 +16,7 @@
 //      parvej[nums[i]] =i;
 //         }
 //         return ans;
-//     }
+//     }   
 // };
 
 // more understandable format of the above solution
