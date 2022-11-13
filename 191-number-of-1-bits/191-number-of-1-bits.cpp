@@ -9,7 +9,7 @@ public:
             if(n&1){      
                 count++;
             }
-            n=n>>1;   // right shift the given bits by 1
+            n=n>>1;   //   right shift the given bits by 1
         }
         return count;
     }
