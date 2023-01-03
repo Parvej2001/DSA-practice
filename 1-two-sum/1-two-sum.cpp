@@ -19,7 +19,7 @@
 //     }   
 // };
 
-// more understandable format of the above solution
+// more understandable format of the above solution is here 
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -32,7 +32,8 @@ public:
                 ans.push_back(i);
                 ans.push_back(map[diff]);
                 return ans;
-            }
+            } 
+                
             map[nums[i]]= i;
         }
         return ans;
