@@ -2,7 +2,7 @@ class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
         
-        
+        // this codes give runtime error
 //         int n=nums.size();
         
 //         sort(nums.begin(), nums.end());
