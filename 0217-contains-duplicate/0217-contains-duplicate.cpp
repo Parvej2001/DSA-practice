@@ -2,6 +2,7 @@ class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
         
+        
 //         int n=nums.size();
         
 //         sort(nums.begin(), nums.end());
@@ -13,6 +14,8 @@ public:
 //             break;
 //         }
 //         return false;
+
+        //using hashing
          map<int,int> mp;
         for(auto i:nums){
             mp[i]++;
