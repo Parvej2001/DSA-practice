@@ -19,7 +19,7 @@
 //     }
 // };
 
-// more understandable format of the above solution
+// more understandable format of the above solution and it has less time complexity 
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
