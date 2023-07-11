@@ -9,7 +9,7 @@ public:
         // store the ans
         int ans=0;
         
-        // Traverse column wise and for each row
+        // Traverse column wise and for each row i have used 
         
         for (int i=0; i<col; i++)
         {
